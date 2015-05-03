@@ -1,4 +1,4 @@
-Sony Xperia SP Device Tree
+Sony Xperia SP Device Repository
 ==============
 
 ![Sony Xperia SP](http://www.tudoemtecnologia.com/wp-content/uploads/2013/10/DSC01229-1.jpg)
