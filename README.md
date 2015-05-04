@@ -19,3 +19,5 @@ Camera  | 8MPx, LED Flash
 This Device Source is brought to you by TeamRevolution. Refer to the License  file for MIT License details
 
 Local Manifests File can be found here if you want to build for this device: https://github.com/TeamRevolutionSG/local_manifests
+
+This device tree is for use with : omniROM 5.1.1
