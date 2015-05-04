@@ -29,7 +29,7 @@ $(call inherit-product, device/sony/huashan/full_huashan.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_huashan
-PRODUCT_DEVICE := c530x
+PRODUCT_DEVICE := huashan
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := sony
 PRODUCT_MODEL := C530X
