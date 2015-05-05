@@ -26,10 +26,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 #Fix Movement
 PRODUCT_COPY_FILES += \
-    device/sony/huashan/custom/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     device/sony/huashan/custom/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
     device/sony/huashan/custom/su.d/77-selinux.sh:system/su.d/77-selinux.sh \
-    device/sony/huashan/custom/illumination_service:system/bin/illumination_service \
     device/sony/huashan/custom/com.sonyericsson.illumination.jar:system/framework/com.sonyericsson.illumination.jar \
 device/sony/huashan/custom/SemcIllumination.apk:system/app/SemcIllumination.apk
 
