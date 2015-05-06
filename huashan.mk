@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/huashan/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-#Fix Movement
+#Custom Movement
 PRODUCT_COPY_FILES += \
     device/sony/huashan/custom/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
     device/sony/huashan/custom/su.d/77-selinux.sh:system/su.d/77-selinux.sh \
