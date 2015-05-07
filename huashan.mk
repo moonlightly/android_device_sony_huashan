@@ -24,6 +24,10 @@ DEVICE_PACKAGE_OVERLAYS += device/sony/huashan/overlay
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Low-Ram Configuration.
+# Although with 1GB, ram optimization might help out with the overall experience
+PRODUCT_PROPERTY_OVERRIDES += ro.config.low_ram=true
+
 #Custom Movement
 PRODUCT_COPY_FILES += \
     device/sony/huashan/custom/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
