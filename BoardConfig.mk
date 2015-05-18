@@ -157,3 +157,15 @@ TW_MIN_BRIGHTNESS := 5
 TW_EXTERNAL_STORAGE_PATH := "/sdcard1"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard1"
 RECOVERY_SDCARD_ON_DATA := true
+TARGET_RECOVERY_INITRC := device/sony/huashan/recovery/init.rc
+
+# MultiROM
+MR_PRODUCT_DEVICE := huashan
+MR_DPI := xhdpi
+MR_KEXEC_MEM_MIN := 0x85000000
+MR_KEXEC_MEM_MAX := 0x87ffffff
+MR_INIT_DEVICES := device/sony/huashan/multirom/init_devices.c
+MR_SDCARD_BLOCK_DEV := mmcblk1
+MR_SDCARD_PART_PREFIX := mmcblk1p
+MR_USBDISK_BLOCK_DEV := sda
+MR_USBDISK_PART_PREFIX := sda
