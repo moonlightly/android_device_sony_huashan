@@ -35,7 +35,7 @@ $(call inherit-product, device/sony/common/resources.mk)
 $(call inherit-product, device/sony/huashan/huashan.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_huashan
+PRODUCT_NAME := Huashan
 PRODUCT_DEVICE := huashan
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
