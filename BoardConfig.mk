@@ -85,7 +85,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_CUSTOM_BOOTIMG_MK := device/sony/huashan/custombootimg.mk
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
-TARGET_RECOVERY_FSTAB := device/sony/huashan/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/sony/huashan/rootdir/recovery/twrp.fstab
 RECOVERY_FSTAB_VERSION := 2
 
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -158,3 +158,15 @@ BOARD_SEPOLICY_UNION += \
 
 # inherit from the proprietary version
 -include vendor/sony/huashan/BoardConfigVendor.mk
+
+#TWRP
+TW_BOARD_CUSTOM_GRAPHICS := ../../../device/sony/huashan/recovery/twrp_graphics.c
+DEVICE_RESOLUTION := 720x1280
+TW_HAS_NO_RECOVERY_PARTITION := true
+TW_INCLUDE_JB_CRYPTO := true
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
+TW_MAX_BRIGHTNESS := 255
+TW_MIN_BRIGHTNESS := 5
+TW_EXTERNAL_STORAGE_PATH := "/sdcard1"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard1"
+RECOVERY_SDCARD_ON_DATA := true
