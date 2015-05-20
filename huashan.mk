@@ -33,7 +33,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_COPY_FILES += \
     device/sony/huashan/custom/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
     device/sony/huashan/custom/com.sonyericsson.illumination.jar:system/framework/com.sonyericsson.illumination.jar \
-device/sony/huashan/custom/SemcIllumination.apk:system/app/SemcIllumination.apk
+    device/sony/huashan/custom/SemcIllumination.apk:system/app/SemcIllumination.apk \
+    device/sony/huashan/custom/postrecoveryboot.sh:system/sbin/postrecoveryboot.sh
 
 # Permissions
 PRODUCT_COPY_FILES += \
