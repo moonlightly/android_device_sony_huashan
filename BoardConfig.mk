@@ -85,7 +85,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 BOARD_CUSTOM_BOOTIMG_MK := device/sony/huashan/custombootimg.mk
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
-TARGET_RECOVERY_FSTAB := device/sony/huashan/rootdir/recovery/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/sony/huashan/recovery/twrp.fstab
 RECOVERY_FSTAB_VERSION := 2
 
 BOARD_FLASH_BLOCK_SIZE := 131072
