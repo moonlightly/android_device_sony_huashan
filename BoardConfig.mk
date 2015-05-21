@@ -150,7 +150,7 @@ BOARD_SEPOLICY_UNION += \
 -include vendor/sony/huashan/BoardConfigVendor.mk
 
 #TWRP
-TW_BOARD_CUSTOM_GRAPHICS := ../../../device/sony/huashan/recovery/twrp_graphics.c
+#TW_BOARD_CUSTOM_GRAPHICS := ../../../device/sony/huashan/recovery/twrp_graphics.c
 DEVICE_RESOLUTION := 720x1280
 TW_HAS_NO_RECOVERY_PARTITION := true
 TW_INCLUDE_JB_CRYPTO := true
