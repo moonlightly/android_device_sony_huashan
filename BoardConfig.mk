@@ -15,6 +15,7 @@
 # inherit from msm8960-common
 include device/sony/msm8960-common/BoardConfigCommon.mk
 
+TARGET_CPU_VARIANT=krait
 TARGET_SPECIFIC_HEADER_PATH += device/sony/huashan/include
 
 # Kernel properties
